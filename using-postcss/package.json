@@ -1,9 +1,14 @@
 {
   "name": "using-postcss",
   "packageManager": "yarn@4.9.2",
-  "dependencies": {
+  "devDependencies": {
+    "@parcel/core": "^2.15.4",
     "@tailwindcss/postcss": "^4.1.11",
+    "parcel": "^2.15.4",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html"
   }
 }
